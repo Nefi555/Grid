@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRAVITY FALLS PERSONAJES</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            background-color: #00ffc8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            background-color: #ff00b3;
+        }
+        .box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .box:nth-child(1) { background-color: #6200ff; }
+        .box:nth-child(2) { background-color: #6200ff; }
+        .box:nth-child(3) { background-color: #6200ff; }
+        .box:nth-child(4) { background-color: #6200ff; }
+        .box:nth-child(5) { background-color: #6200ff; }
+        .box:nth-child(6) { background-color: #6200ff; }
+        .box:nth-child(7) { background-color: #6200ff; }
+        .box:nth-child(8) { background-color: #6200ff; }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 8px 16px rgba(12, 12, 193, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+            border-radius: 30px;
+        }
+        p {
+            font-size: 1.2em;
+            color: rgb(81, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>GRAVITY FALLS PERSONAJES</h1>
+    <div class="container">
+        <div class="box"><img src="bill.jpg" alt="Bill"><p>Bill Cipher(Villano)</p></div>
+        <div class="box"><img src="dipper.png" alt="Dipper"><p>Dipper Pines(Protagonista)</p></div>
+        <div class="box"><img src="ford.png" alt="Ford"><p>Stanford Pines(Protagonista)</p></div>
+        <div class="box"><img src="mabel.png" alt="Mabel"><p>Mabel Pines(Protagonista)</p></div>
+        <div class="box"><img src="pato.jpg" alt="Pato"><p>Pato(Personaje secundario principal)</p></div>
+        <div class="box"><img src="soos.jpg" alt="Soos"><p>Jesus Altamirano Ramirez(Personaje secundario principal)</p></div>
+        <div class="box"><img src="stanlee.png" alt="Stanlee"><p>Stanlee Pines(Protagonista)</p></div>
+        <div class="box"><img src="wendy.png" alt="Wendy"><p>Wendy Corderoy(Personaje secundario principal)</p></div>
+    </div>
+</body>
+</html>
